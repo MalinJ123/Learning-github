@@ -1,17 +1,46 @@
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Marhey', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Urbanist', sans-serif; */
+
 body{ margin:0;
 	 box-sizing: border-box;
-
+	 font-family: sans-serif;
 }
+
 
 .nav-section{
-	display:flex;
-	background-color: white;
-text-transform: uppercase;
-	color: #E47C84;
-	margin:1em;
+	display: flex;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-section_text:hover{
+
+	cursor: pointer;
 
 }
+a:link { 
+	text-decoration: none; 
+	color: #E47C84;
+}
 
-.nav-section_text{
+ul {
+    list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	margin: 4em ;
 	
 }
+ li{
+	margin-left: 1em;
+	text-decoration: none;
+	
+
+
+ }
+
+
