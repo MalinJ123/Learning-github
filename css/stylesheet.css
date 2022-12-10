@@ -1,7 +1,17 @@
 body{ margin:0;
 	 box-sizing: border-box;
-	background-color: black;
-	width: 100vh;
-	
 
+}
+
+.nav-section{
+	display:flex;
+	background-color: white;
+text-transform: uppercase;
+	color: #E47C84;
+	margin:1em;
+
+}
+
+.nav-section_text{
+	
 }
