@@ -6,41 +6,67 @@ font-family: 'Paytone One', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 font-family: 'Urbanist', sans-serif; */
 
-body{ margin:0;
+*{
+	 margin:0;
 	 box-sizing: border-box;
-	 font-family: sans-serif;
+	 font-family: 'Urbanist', sans-serif;
+
 }
 
 
 .nav-section{
-	display: flex;
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .nav-section_text:hover{
-
 	cursor: pointer;
 
 }
-a:link { 
+a { 
 	text-decoration: none; 
 	color: #E47C84;
+	font-size: 27px;
+	
+
 }
 
 ul {
     list-style-type: none;
 	display: flex;
 	flex-direction: row;
-	margin: 4em ;
+	margin: 6em 2em;
+
 	
 }
  li{
-	margin-left: 1em;
-	text-decoration: none;
+	margin-left: 2em;
 	
-
+ }
+ .picture-logo{
+	height: 7em;
+	margin-top:3em;
 
  }
 
-
+ .social-media{
+	justify-content: space-around;
+	display: flex;
+	width: 26em;
+	align-items: center;
+	color:#E47C84;
+	
+	
+ }
+ .cart{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-color: #E47C84; 
+	color:white;
+	width: 6em;
+	height:4em;
+	
+ }
+ 
