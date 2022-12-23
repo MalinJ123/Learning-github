@@ -251,23 +251,16 @@ ul {
 }
 
 .p__btn{
-	border: 2px solid lime; 
 	width: auto;
-	height: 15em;
 	background-color: #F6EBEA;
 	color: #E47C84;
 	font-weight: bold;
 	font-size: 49px;
 	display: column;
-	/* align-content: center;
-	justify-content: center; */
 	text-align: center;
+	padding: 1.5em; 
 
 	
-}
-
-p{
-	margin-top: 3em;
 }
 
 .button{
@@ -277,10 +270,20 @@ p{
 	font-size: 35px;
 	font-weight: bold;
 	color: white; 
-	margin-top: 4em;
+	border: none; 
+	margin-top: 1.5em;
 
 }
 
+.continer{
+	display: flex;
+		justify-content: center;
+		margin:4.5em 0 4em 0;
+		flex-wrap: wrap;
+}
+.container__picture{
+margin:1em;
+}
 
 
 @media (max-width: 1257px) {
@@ -296,6 +299,40 @@ p{
 		margin-left:1em;
 	}
 	
+	.p__btn{
+		width: auto;
+		background-color: #F6EBEA;
+		color: #E47C84;
+		font-weight: bold;
+		font-size: 29px;
+		text-align: center;
+
+	}
+
+	.button{
+		background-color:  #E47C84;
+		font-size: 15px;
+		font-weight: bold;
+		color: white; 
+		margin-top: 4em;
+	
+	}
 }
 
+
+	@media (max-width: 830px) {
+	.continer{
+		display: flex;
+		justify-content: center;
+		margin:4.5em 0 4em 0;
+		flex-wrap: wrap;
+		}
+	.container__picture{
+	
+		margin-left: auto;
+		margin-right: auto;
+
+		}
+		
+	}
 
