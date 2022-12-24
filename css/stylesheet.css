@@ -14,7 +14,7 @@ font-family: 'Urbanist', sans-serif; */
 }
 
 body{
-	max-width: 2150px;
+	/* max-width: 2150px; */
 }
 
 
@@ -22,6 +22,7 @@ body{
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
+	max-width: 2150px;
 
 	
 }
@@ -332,13 +333,14 @@ margin-top: 13em;
 	margin-left:0.5em;
 }
 
+/* FOOTER START */
+
 footer{
 	background-color: #E47C84;
 	color:white;
 	display:flex;
 	justify-content: space-around;
 	height: 25em;
-	max-width: 2150px;
 	align-items: center;
 }
 
@@ -350,19 +352,18 @@ footer .info {
 .media-icon{
 	justify-content: space-between;
 	width: 14em;
-	display: column;
+	
 }
-.media-icon__btn{
-	background-color:  #E47C84;
-	border: 2px solid lime;
-	width: 16em;
-	height: 3.2em;
-	font-size: 25px;
-	font-weight: bold;
-	color: white; 
-	border: none; 
-	/* margin-left:0.5em; */
+
+.icon-btn{
+	border: 1px solid white; 
+	background-color: #E47C84;
+	color: white;
+	height: 4em;
+	width: 10em;
+	font-size: 20px;
 }
+
 
 
 
