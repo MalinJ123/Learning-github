@@ -34,7 +34,7 @@ font-family: 'Urbanist', sans-serif; */
 a { 
 	text-decoration: none; 
 	color: #E47C84;
-	font-size: 27px;
+	font-size: 22px;
 
 
 }
@@ -52,7 +52,7 @@ ul {
 	
  }
  .picture-logo{
-	height: 7em;
+	height: 5em;
 	margin-top:3em;
 	
 
@@ -81,9 +81,8 @@ ul {
 	font-size: 30px;
  }
  
-
-
 /* Second nav-menu  */
+
 .hamburger-menu{
 	visibility: hidden;
 }
@@ -246,33 +245,35 @@ ul {
 
 .pic{
 	justify-content: center;
-	width: 50%; 
+	width: 40%; 
 	height: auto;
 	margin-left:2em;
 }
 
-.p__btn{
+.article{
 	width: auto;
 	background-color: #F6EBEA;
 	color: #E47C84;
 	font-weight: bold;
-	font-size: 49px;
+	font-size: 34px;
 	display: column;
 	text-align: center;
-	padding: 1.5em; 
+	padding: 1.5em; 	
+}
 
-	
+.article > p {
+	margin-top:1.4em;
 }
 
 .button{
 	background-color:  #E47C84;
 	width: 9em;
 	height: 4em;
-	font-size: 35px;
-	font-weight: bold;
+	font-size: 22px;
+	font-weight: normal;
 	color: white; 
 	border: none; 
-	margin-top: 1.5em;
+	margin: 4em 0 1em 0;
 }
 
 
@@ -339,7 +340,7 @@ footer{
 	background-color: #E47C84;
 	color:white;
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	height: 25em;
 	align-items: center;
 }
@@ -347,12 +348,20 @@ footer{
 footer .info {
 	font-size: 20px;
 	line-height: 2em;
+	margin: 0 6em 0 6em; 
+
 }
 
 .media-icon{
-	justify-content: space-between;
+	height: 8em;
 	width: 14em;
+	margin-right: 8em;
 	
+}
+.fa{ 
+	margin-right: 0.3em;
+	margin-bottom: 1em;
+
 }
 
 .icon-btn{
@@ -362,6 +371,7 @@ footer .info {
 	height: 4em;
 	width: 10em;
 	font-size: 20px;
+	
 }
 
 

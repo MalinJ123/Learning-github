@@ -1,0 +1,28 @@
+
+
+.shop-ad{
+	background-color: #F6EBEA;
+	display:column;
+	height: 40em;
+	
+}
+
+.shop-ad > div {
+	color: #E47C84;
+	font-size: 50px;
+	font-weight: bolder;
+	/* text-align:center; */
+	display:flex;
+	align-content: center;
+	
+
+}
+.shop-ad > p{
+	color:black;
+	font-size: 26px;
+	font-weight: bold;
+	/* justify-content:center;
+	align-self: center;
+	display:flex; */
+	
+}
