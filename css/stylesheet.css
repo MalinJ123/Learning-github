@@ -343,6 +343,7 @@ footer{
 	justify-content: space-between;
 	height: 25em;
 	align-items: center;
+	margin-top: 8em;
 }
 
 footer .info {

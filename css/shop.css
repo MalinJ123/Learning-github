@@ -36,20 +36,32 @@
 
 
 .cards{
-	display: flex;
-	/* justify-content: center; */
-	max-width: 2150px;
-	margin: 5em 0 0 5em;
+	display:flex;
+	justify-content: space-around;
+	margin: 5em 3em 0 3em;
+}
 
+.card-img-top{
+max-width: 100%;
+
+}
+
+.card-body{
+	display:column;
+	align-self: center;
 }
 
 .card-title{
 	color:#E47C84;
-	font-size: 20px;
+	font-size: 25px;
+	margin-top:0.5em;
+	
 
 }
 
 .card-price{
 	color: black;
+	font-size: 25px;
+	margin-top:0.5em;
 }
 
