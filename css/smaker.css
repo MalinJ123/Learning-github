@@ -2,3 +2,19 @@ main{
 	background-color: #F6EBEA;
 	height: 100vh;
 }
+
+
+.taste__card{
+	border: 2px solid black;
+	
+	width: 40vw;
+	background-color: white;
+
+
+}
+
+.taste-card-img{
+	border-radius: 100%;
+	max-width: 20em;
+	
+}
