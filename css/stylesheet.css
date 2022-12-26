@@ -236,6 +236,7 @@ ul {
 
 /* Main  */
 
+
 .picture-section{
 	display: flex; 
 	justify-content: center;
@@ -299,6 +300,7 @@ margin-top: 13em;
 	color:  #E47C84;
 	font-size: 60px;
 	text-align: center;
+	margin: 0 2em 0 2em;
 }
 
 .e-post__p{

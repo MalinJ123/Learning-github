@@ -41,6 +41,9 @@
 	margin: 5em 3em 0 3em;
 }
 
+.card{
+	margin-left:1em;
+}
 .card-img-top{
 max-width: 100%;
 
@@ -49,6 +52,7 @@ max-width: 100%;
 .card-body{
 	display:column;
 	align-self: center;
+	
 }
 
 .card-title{
