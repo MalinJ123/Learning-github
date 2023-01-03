@@ -1,5 +1,21 @@
-.section-left{
-	font-size: 100px;
-	color: lime; 
-	
-}
+/* article > h1{
+	color:  #E47C84;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 2em 0 2em;
+} */
+
+main{
+   display: flex;
+   justify-content: center;
+} 
+article {
+	display:column; 
+} 
+
+.article__list{
+	list-style-type: none;
+    margin: 5em 2em;
+    flex-wrap: wrap;
+} 
+
