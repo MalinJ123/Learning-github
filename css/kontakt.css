@@ -5,17 +5,32 @@
 	margin: 0 2em 0 2em;
 } */
 
+
+
 main{
    display: flex;
    justify-content: center;
-} 
-article {
-	display:column; 
+   background-color: #F6EBEA;
+
 } 
 
-.article__list{
-	list-style-type: none;
-    margin: 5em 2em;
-    flex-wrap: wrap;
-} 
+
+
+.kontakt-container > h1{
+	display:column;
+	color: #E47C84;
+	font-size: 3em;
+	margin-bottom: 2em;
+
+}
+.section-left{
+	margin-top: 5em;
+	margin-right: 3em;
+}
+
+.section-right{
+	margin-top: 5em;
+}
+
+
 
