@@ -23,7 +23,6 @@ font-family: 'Urbanist', sans-serif; */
 	display: flex;
 	justify-content: space-between;
 	max-width: 2150px;
-
 	
 }
 .nav-section_text:hover{
@@ -39,7 +38,7 @@ a {
 
 }
 
-ul {
+ ul {
     list-style-type: none;
 	display: flex;
 	flex-direction: row;
@@ -47,6 +46,7 @@ ul {
 	flex-wrap: wrap;
 	
 }
+
  li{
 	margin-left: 2em;
 	

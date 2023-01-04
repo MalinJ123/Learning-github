@@ -19,18 +19,41 @@ main{
 .kontakt-container > h1{
 	display:column;
 	color: #E47C84;
-	font-size: 3em;
-	margin-bottom: 2em;
-
+	margin-bottom: 1.5em;
+	margin-top:0.5em;
+	font-size: 2em;
+	
 }
+
+article a{
+	text-decoration: underline;
+	
+}
+.kontakt-container{
+	font-size: 1.5em;
+	font-weight:normal;
+	line-height: 1.5em;
+}
+
 .section-left{
 	margin-top: 5em;
-	margin-right: 3em;
+	margin-right: 1em;
 }
 
 .section-right{
 	margin-top: 5em;
+	margin-left: 3em;
 }
 
+.article__list{
+	display:column;
+}
+
+ul{
+	list-style-type: none;
+	flex-direction: column;
+	
+
+}
 
 
