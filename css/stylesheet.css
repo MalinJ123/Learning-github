@@ -236,6 +236,9 @@ a {
 
 /* Main  */
 
+main{
+	height: 100%;
+}
 
 .picture-section{
 	display: flex; 
@@ -439,7 +442,7 @@ footer .info {
 			color:  #E47C84;
 			font-size: 2em;
 			text-align: center;
-			/* margin: 0 2em 0 2em; */
+			margin: 0 2em 0 2em;
 		}
 
 		.icon-btn{
